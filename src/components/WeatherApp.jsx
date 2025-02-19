@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./WeatherApp.css";
 
 const WEATHER_API_KEY = "513f57b778654e148ff55144251902";
-const BASE_URL = "http://api.weatherapi.com/v1";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 const WeatherApp = () => {
   const [city, setCity] = useState("");
