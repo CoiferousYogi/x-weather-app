@@ -73,7 +73,7 @@ const WeatherApp = () => {
       </div>
 
       {/* loading indicator */}
-      {isLoading && <p>Loading...</p>}
+      {isLoading && <p>Loading data...</p>}
 
       {!isLoading && isError && window.alert("Failed to fetch weather data")}
 
